@@ -45,13 +45,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="erb" value="171" />
-          <entry key="md" value="37" />
+          <entry key="md" value="98" />
           <entry key="rb" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="37" />
+          <entry key="Markdown" value="98" />
           <entry key="RHTML" value="171" />
           <entry key="Ruby" value="166" />
         </counts>
@@ -111,7 +111,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret column="22" selection-start-column="22" selection-end-column="22" />
+                <caret column="81" selection-start-column="81" selection-end-column="81" />
               </first_editor>
               <second_editor />
             </state>
@@ -347,12 +347,12 @@
       <workItem from="1541603446729" duration="258000" />
       <workItem from="1541603743430" duration="1864000" />
       <workItem from="1541606394848" duration="1804000" />
-      <workItem from="1541663927843" duration="1926000" />
+      <workItem from="1541663927843" duration="2136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5852000" />
+    <option name="totallyTimeSpent" value="6062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -425,7 +425,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <caret column="81" selection-start-column="81" selection-end-column="81" />
           </first_editor>
           <second_editor />
         </state>
