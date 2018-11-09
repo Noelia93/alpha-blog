@@ -1,3 +1,7 @@
-<h1> Hello home </h1>
+<h1> Hello home </h1>  <!-- el path para el link se mira mediante rake routes en la terminal-->
 
-<%= link_to "About", about_path %>  <!-el path se mira mediante rake routes en la terminal->
+<%= link_to "Alpha Blog", articles_path %>  | <%= link_to "About", about_path %>
+
+<!-- si pongo solo <.. link_to "Alpha Blog" ..> me pone el link pero no va hacia ningun lado. Sin embargo,
+ si pongo <.. link_to "Alpha Blog", articles_path ..> sí que me lo lleva a la dirección de los artículos
+ la cuál sé gracias a rake routes, que me muestra los path ->
