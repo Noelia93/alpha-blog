@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root 'pages#home'  #directamente accedo desde la pag ppal
   get 'about', to:'pages#about' #welcome controller, about action
 
+  resources :articles
+
 end

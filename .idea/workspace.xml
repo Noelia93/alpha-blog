@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ad1ced-3efa-4440-9df2-4bce8b778430" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20181108130758_create_articles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20181108130758_create_articles.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -42,43 +43,46 @@
     <session id="-178807667">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="1" />
-          <entry key="erb" value="2" />
+          <entry key="erb" value="7" />
           <entry key="gitignore" value="1" />
+          <entry key="key" value="1" />
           <entry key="md" value="1" />
-          <entry key="rb" value="15" />
+          <entry key="rb" value="23" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="2" />
-          <entry key="Ruby" value="16" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="RHTML" value="7" />
+          <entry key="Ruby" value="24" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="67" />
-          <entry key="erb" value="171" />
+          <entry key="erb" value="809" />
           <entry key="md" value="98" />
-          <entry key="rb" value="570" />
+          <entry key="rb" value="1163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="98" />
-          <entry key="RHTML" value="171" />
-          <entry key="Ruby" value="637" />
+          <entry key="RHTML" value="809" />
+          <entry key="Ruby" value="1230" />
         </counts>
       </usages-collector>
     </session>
@@ -86,51 +90,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="90">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="240">
+              <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20181108130758_create_articles.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20181108140436_add_description_to_articles.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+              <caret column="52" lean-forward="true" selection-start-column="52" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="70" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -146,16 +163,21 @@
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/about.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/about.html.erb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/db/migrate/20181108123621_add_description_to_articles.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181108122022_create_article.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/db/migrate/20181108130758_create_articles.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20181108140436_add_description_to_articles.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181108140436_add_description_to_articles.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181108130758_create_articles.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
       </list>
     </option>
   </component>
@@ -170,7 +192,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-1920" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
@@ -181,7 +203,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,7 +244,40 @@
             <path>
               <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="alpha-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alpha-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alpha-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alpha-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alpha-blog" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alpha-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="locales" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -240,6 +294,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,18 +440,19 @@
       <workItem from="1541606394848" duration="1804000" />
       <workItem from="1541663927843" duration="4903000" />
       <workItem from="1541680678763" duration="1494000" />
-      <workItem from="1541682689159" duration="4428000" />
+      <workItem from="1541682689159" duration="4661000" />
+      <workItem from="1541750486640" duration="7980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14751000" />
+    <option name="totallyTimeSpent" value="22964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115548454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11661342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -415,7 +471,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32960597" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,13 +481,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -457,13 +506,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181108122022_create_article.rb" />
-    <entry file="file://$PROJECT_DIR$/app/views/pages/about.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -471,16 +513,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/concerns/article.rb">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/app/models/concerns/article.rb" />
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181108130758_create_articles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181108140436_add_description_to_articles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/channels/application_cable/channel.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/master.key">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/puma.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/about.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="91" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -491,34 +585,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state>
+          <caret column="52" lean-forward="true" selection-start-column="52" selection-end-column="52" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181108130758_create_articles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181108140436_add_description_to_articles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        <state relative-caret-position="15">
+          <caret line="1" column="70" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
