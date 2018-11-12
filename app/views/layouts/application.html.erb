@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AlphaBlog</title>
+    <title> AlphaBlog </title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,8 +10,16 @@
   </head>
 
   <body>
+    <!-- ahora voy a crear un render layouts/navegation para que este archivo sea lo más limpio posible y llevar el
+    código hacia el nuevo archivo que voy a crear _navegation.html.erb -->
+    <%= render 'layouts/navegation' %>
+    <!-- si escribo un mensaje debajo del render que hay a continuación aparece en todas las páginas -->
     <%= render 'layouts/messages' %>
-    <%= yield %>
-
+    <!-- Añado el container que le va a dar un espacio a lo que aparece ALPHA BLOG en localhost:3000 -->
+    <div class="container">
+      <%= yield %>
+    </div>
+    <!-- Ahora, hago un nuevo archivo para el pie de página -->
+    <%= render 'layouts/footer' %>
   </body>
 </html>

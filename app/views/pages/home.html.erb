@@ -1,7 +1,11 @@
-<h1> Hello home </h1>  <!-- el path para el link se mira mediante rake routes en la terminal-->
+<!-- Ahora, utilizo la página getbootstrap para diseña mi home page. como la obtengo de la jumbotron, lo
+especifico-->
 
-<%= link_to "Alpha Blog", articles_path %>  | <%= link_to "About", about_path %>
+<div class="center jumbotron">  <!-- center es para que el boton apareczca en el centro está en custom-->
+    <h1> ALPHA BLOG </h1>
+  <%= link_to "Sign up now", "#", class: "btn btn-primary btn-lg btn-xlarge" %>
+  <!-- si pongo btn-danger sale en rojo-->
+ </div>
 
-<!-- si pongo solo <.. link_to "Alpha Blog" ..> me pone el link pero no va hacia ningun lado. Sin embargo,
- si pongo <.. link_to "Alpha Blog", articles_path ..> sí que me lo lleva a la dirección de los artículos
- la cuál sé gracias a rake routes, que me muestra los path ->
+
+

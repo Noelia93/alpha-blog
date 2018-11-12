@@ -1,0 +1,78 @@
+/* la siguiente línea es para poner en color azul. Es una clase y por eso se comienza por punto */
+.background_blue{
+  background-color: #17a2b861;
+}
+/* para poner en italica. Es una clase y por eso se comienza por punto */
+.italic_style{
+  font-style: italic;
+}
+
+/* para poner diferente el logo de Alpha blog, como es un id se pone con #
+ Solo debe haber un id por página*/
+#logo{
+  float: left;
+  font-size: 1.7em;  /* tamaño de la fuente*/
+  color: #ffff; /* para que esté en blanco*/
+  text-transform: uppercase;   /* para que esté en mayúscula */
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+ /* Esto lo pongo <div class="center jumbotron">  en home.html.erb que lo que hace es centrar el texto y boton*/
+.center{
+  text-align: center;
+}
+
+/* Quiero insertar una imagen en la página de inicio, para ello primero me la he descargado y ubicado en images*/
+.jumbotron{
+  background-image: asset-url('nazaries.jpeg');
+  background-repeat: no-repeat;  /* this not allow to repeat the image*/
+  background-position: center;
+  background-size: 1150px 550px;
+  height: 550px;
+}
+
+/* para que se vea mejor alpha blog: */
+.jumbotron h1{
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.btn-xlarge{
+  font-size: 1.7em;
+  /*background-color: black; it would be to change to blacl color but i like the last one*/
+}
+
+footer{
+  maring-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover{
+  color: #222;
+}
+
+footer small{
+  float: left;
+}
+
+/* this is to put the link "about" on the right of the foot page*/
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float: left;
+  margin-left: 15px;
+}
