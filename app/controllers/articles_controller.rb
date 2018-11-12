@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:edit, :update, :show, :destroy]
-  # Lo que se hace con el before_action es llamar al set_param que tenemos definido abajo para no tener que repetir
+  # Lo que se hace con el before_action es llamar al set_article que tenemos definido abajo para no tener que repetir
   # código, ya que todo ello estaba escrito en edit, update, show, destroy. De este modo compactamos y ahorramos
   # líneas.
 
