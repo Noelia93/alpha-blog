@@ -16,7 +16,9 @@ class ArticlesController < ApplicationController
   end
 
   def create
+    #debugger    #this line is to have de user_id too
     @article = Article.new(article_params)
+    @article.user = User.first   #This line has been created in section 6: associations. (to identify the user)
     if @article.save
     # do something
       flash[:success] = "Article was successfully created"  #cambio los flash success sale en verde
