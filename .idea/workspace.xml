@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33ad1ced-3efa-4440-9df2-4bce8b778430" name="Default Changelist" comment="" />
+    <list default="true" id="33ad1ced-3efa-4440-9df2-4bce8b778430" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -61,7 +63,7 @@
           <entry key="lock" value="1" />
           <entry key="md" value="1" />
           <entry key="pid" value="1" />
-          <entry key="rb" value="34" />
+          <entry key="rb" value="35" />
           <entry key="scss" value="4" />
           <entry key="yml" value="1" />
         </counts>
@@ -73,7 +75,7 @@
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="RHTML" value="42" />
-          <entry key="Ruby" value="37" />
+          <entry key="Ruby" value="38" />
           <entry key="SCSS" value="4" />
           <entry key="YAML" value="1" />
         </counts>
@@ -85,7 +87,7 @@
           <entry key="erb" value="7242" />
           <entry key="js" value="21" />
           <entry key="md" value="98" />
-          <entry key="rb" value="2268" />
+          <entry key="rb" value="2744" />
           <entry key="scss" value="2490" />
         </counts>
       </usages-collector>
@@ -95,7 +97,7 @@
           <entry key="JavaScript" value="21" />
           <entry key="Markdown" value="98" />
           <entry key="RHTML" value="7242" />
-          <entry key="Ruby" value="2338" />
+          <entry key="Ruby" value="2814" />
           <entry key="SCSS" value="2490" />
         </counts>
       </usages-collector>
@@ -149,15 +151,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20181113104016_create_users.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -169,8 +162,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="60">
+              <caret line="4" column="55" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -553,7 +546,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67798000" />
+    <option name="totallyTimeSpent" value="69785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -822,9 +815,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/concerns/user.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/concerns/user.rb" />
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -834,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="60">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="55" />
         </state>
       </provider>
     </entry>
