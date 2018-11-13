@@ -51,6 +51,16 @@
   /*background-color: black; it would be to change to blacl color but i like the last one*/
 }
 
+.article-meta-details{                  /*creado por tal a la hora tal, le da el style*/
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
+
+.details_foot{
+  border-top: 2px solid #eaeaea;
+  margin-top: 30px;
+}
+
 /* para los bottons: me crea una raya encima de los botones*/
 .article-actions{
   border-top: 1px solid #eaeaea;

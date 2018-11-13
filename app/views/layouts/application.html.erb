@@ -21,7 +21,9 @@
     </div>
     <!-- Ahora, hago un nuevo archivo para el pie de página -->
     <%= render 'layouts/footer' %>
-    <%=  debug(params) if Rails.env.development? %>
+    <div class="details_foot">
+      <%=  debug(params) if Rails.env.development? %>
+    </div>
     <!-- this line has been written in order to see id_user -->
   </body>
 </html>
