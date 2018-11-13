@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33ad1ced-3efa-4440-9df2-4bce8b778430" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
+    <list default="true" id="33ad1ced-3efa-4440-9df2-4bce8b778430" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -88,7 +85,7 @@
           <entry key="erb" value="7242" />
           <entry key="js" value="21" />
           <entry key="md" value="98" />
-          <entry key="rb" value="2158" />
+          <entry key="rb" value="2268" />
           <entry key="scss" value="2490" />
         </counts>
       </usages-collector>
@@ -98,7 +95,7 @@
           <entry key="JavaScript" value="21" />
           <entry key="Markdown" value="98" />
           <entry key="RHTML" value="7242" />
-          <entry key="Ruby" value="2228" />
+          <entry key="Ruby" value="2338" />
           <entry key="SCSS" value="2490" />
         </counts>
       </usages-collector>
@@ -171,7 +168,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -237,6 +238,7 @@
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20181113104016_create_users.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -546,12 +548,12 @@
       <workItem from="1542010929290" duration="3197000" />
       <workItem from="1542014528940" duration="25845000" />
       <workItem from="1542096151531" duration="2744000" />
-      <workItem from="1542104985750" duration="832000" />
+      <workItem from="1542104985750" duration="1367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67263000" />
+    <option name="totallyTimeSpent" value="67798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -831,7 +833,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
