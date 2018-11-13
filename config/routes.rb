@@ -6,4 +6,8 @@ Rails.application.routes.draw do
 
   resources :articles
 
+  get 'signup', to: 'users#new'
+  # Cambia esta línea por la de abajo: post 'users', to: 'users#create'  #para tener una ruta
+  resources :users, except: [:new]
+
 end
