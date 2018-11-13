@@ -9,6 +9,7 @@ class User < ApplicationRecord    #eso es por ser de rails5, sino sería class U
             uniqueness: { case_sensitive: false },
             length: { maximum: 105 },
             format: { with: VALID_EMAIL_REGEX }
+  has_secure_password   #es el método que debo usar para contraseñas
 end
 
 # The last code validate username which must be present and unique. In this case with case_sensitive: false, it will
