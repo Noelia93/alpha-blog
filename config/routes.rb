@@ -16,4 +16,6 @@ Rails.application.routes.draw do
   delete 'logout', to: 'sessions#destroy'
   #donde recuerdo, sessions es la parte de controler y new es la action que va a hacer.
 
+  resources :categories, except: [:destroy]
+
 end
