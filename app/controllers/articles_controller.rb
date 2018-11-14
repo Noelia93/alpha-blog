@@ -3,11 +3,14 @@ class ArticlesController < ApplicationController
   # Lo que se hace con el before_action es llamar al set_article que tenemos definido abajo para no tener que repetir
   # código, ya que todo ello estaba escrito en edit, update, show, destroy. De este modo compactamos y ahorramos
   # líneas.
+  before_action :require_user, except: [:index, :show]
+  before_action :require_same_user, only: [:edit, :update, :destroy]
 
+  #Después de haber instalado la paginación, voy amodificar estas líneas para que aparezca mejor.
   def index
-    @articles = Article.all
+    @articles = Article.paginate(page: params[:page], per_page: 5)
   end
-
+  # con per_page: 5 lo que le digo es cuántos voy a querer por página
   def new
     @article = Article.new
   end
@@ -54,4 +57,10 @@ class ArticlesController < ApplicationController
       params.require(:article).permit(:title, :descriptions)
     end
 
+    def require_same_user
+      if current_user != @article.user
+        flash[:danger] = "You can only edit or delete your own articles"
+        redirect_to root_path
+      end
+    end
 end

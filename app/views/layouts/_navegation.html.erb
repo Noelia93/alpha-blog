@@ -22,26 +22,46 @@ aparece en todas las páginas de mi App. -->
       <li class="nav-item">
         <!--<a class="nav-link" href="#">Link</a> Le añado la clase al final porque ruby no lo interpreta.-->
         <%= link_to "Articles", articles_path, class:"nav-link" %>
+        <li>
+        <%= link_to "Users", users_path, class:"nav-link" %>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Actions
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <!-- <a class="dropdown-item" href="#"> New Article </a> -->
-          <%= link_to "New Article", new_article_path, class:"dropdown-item" %>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
+      <% if logged_in? %>   <!-- Ahora una restricción, si está registrado entonces se verá-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Actions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <!-- <a class="dropdown-item" href="#"> New Article </a> -->
+              <%= link_to "New Article", new_article_path, class:"dropdown-item" %>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+     <form class="form-inline my-2 my-lg-0 listing">
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <% if logged_in? %>
+        <!-- TODO ESTO ES EL BOTON DE PROFILE-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Your Profile
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <%= link_to "Edit your profile", edit_user_path(current_user), class:"dropdown-item" %>
+              <%= link_to "View your profile", user_path(current_user), class:"dropdown-item" %>
+            </div>
+          </li>
+        <!-- ESTE ES EL BOTON DE LOG OUT-->
+          <%= link_to 'Log out', logout_path, method: :delete, class:"nav-link" %> <!-- Log out de la barra de navegación-->
+        <% else %>
+          <li>
+            <%= link_to 'Log in', login_path,  class:"nav-link" %> <!-- Log out de la barra de navegación-->
+          </li>
+          <%= link_to 'Sign up', signup_path, class:"nav-link" %> <!-- Log out de la barra de navegación-->
+        <% end %>
       </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>

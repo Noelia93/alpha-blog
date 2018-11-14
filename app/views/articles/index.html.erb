@@ -1,3 +1,10 @@
-<h1 align="center"> Listing all articles </h1>
+<h1 align="center">Listing all articles</h1>
 
-<%= render 'article', obj: @articles %>
+<div align="center">
+  <%= will_paginate %>    <!-- usamos la paginación que hemos instalado. En este caso aparece debajo del título-->
+</div>
+<%= render 'article', obj: @articles %>   <!-- el render que está asociado a article.-->
+<div align="center">
+  <%= will_paginate %>     <!-- lo muestra de nuevo, pero ahora al final de la página -->
+</div>
+

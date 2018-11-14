@@ -1,6 +1,7 @@
 <h1 align="center">All Alpha Bloggers</h1>
 <!-- It is going to give a list of all users with its gravatar and the article. -->
 <div align="center">
+  <%= will_paginate %> <!-- añado el paginate al ppo y al final del codigo lo volvere a hacer para que aparezca al final de la pagina -->
   <% @users.each do |user| %>    <!-- para cada usuario aparece: -->
     <ul class="listing">
       <div class="row">
@@ -14,4 +15,5 @@
       </div>
     </ul>
   <% end %>
+  <%= will_paginate %>
 </div>
