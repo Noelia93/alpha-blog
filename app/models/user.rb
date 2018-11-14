@@ -1,5 +1,5 @@
 class User < ApplicationRecord    #eso es por ser de rails5, sino sería class User < ActiveRecord::Base
-  has_many :articles
+  has_many :articles, dependent: :destroy   #me aseguro que destruya todos los articulos que tenga el usuario q los ha creado
   before_save { self.email = email.downcase }
   validates :username, presence: true,
             uniqueness: { case_sensitive: false },
