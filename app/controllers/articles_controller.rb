@@ -53,8 +53,8 @@ class ArticlesController < ApplicationController
     def set_article
       @article = Article.find(params[:id])
     end
-    def article_params
-      params.require(:article).permit(:title, :descriptions)
+    def article_params   #el ultimo parametro es el de categorias que es de la forma arrays
+      params.require(:article).permit(:title, :descriptions, category_ids: [])
     end
 
     def require_same_user

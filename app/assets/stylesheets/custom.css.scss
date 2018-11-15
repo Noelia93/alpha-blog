@@ -88,6 +88,8 @@ descriptions{
   padding-left: 450px;   /* dice que el relleno izdo sea de 450, si fuera 0 estaría en el extremo izdo */
 }
 
+
+
 /* me la he inventado para dar margen entre la foto del gravatar y el texto de abajo*/
 .gravatar-border{
   margin-top: 50px;
@@ -117,4 +119,15 @@ footer ul{
 footer ul li{
   float: left;
   margin-left: 15px;
+}
+
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }

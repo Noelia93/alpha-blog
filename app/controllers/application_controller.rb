@@ -19,4 +19,9 @@ class ApplicationController < ActionController::Base
       redirect_to root_path     #y se lo lleva a esa dirección
     end
   end
+
+  def show
+    @category = Category.find(params[:id])
+    @category_articles = @category.articles.paginate(page: params[:page], per_page: 5)
+  end
 end

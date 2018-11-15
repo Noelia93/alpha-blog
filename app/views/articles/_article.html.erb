@@ -16,6 +16,9 @@
             </small>
           </div>
         </div>
+        <% if article.categories.any? %>
+          <p>Categories: <%= render article.categories %></p>
+        <% end %>
         <div class="article-actions">
           <% if logged_in?  && (current_user == article.user || current_user.admin?) %> <!-- HAGO ESTA RESTRCCIÓN para que solo el usuario (y el admin) que ha escrito el artículo lo pueda modificar -->
             <%= link_to "Edit this article", edit_article_path(article), class: "btn btn-xs btn-primary" %>
